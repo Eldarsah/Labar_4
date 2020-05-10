@@ -2,7 +2,7 @@
 #define QUEUE_H_INCLUDED
 
 #include <iostream>
-
+using namespace std;
 
 template<typename T>
 class Queue
@@ -27,8 +27,6 @@ public:
     size_t Size()const;
     void print() const;
 };
-
-using namespace std;
 
 template<typename T>
 Queue<T>::Queue()
